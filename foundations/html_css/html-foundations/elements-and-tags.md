@@ -1,63 +1,106 @@
-### Introduction
+Here’s a revised version of your lesson with improved clarity and readability while maintaining the original structure.
 
-HTML (HyperText Markup Language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
 
-### Lesson overview
+---
 
-This section contains a general overview of topics that you will learn in this lesson.
+Introduction
 
-- Explain what HTML tags are.
-- Explain what HTML elements are.
+HTML (HyperText Markup Language) is the foundation of all webpages. It defines the structure and content of a webpage using elements. These elements create paragraphs, headings, lists, images, links, and more. In this lesson, we’ll explore how HTML elements work and how to use them correctly.
 
-### Elements and tags
+Lesson Overview
 
-Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
+By the end of this lesson, you will be able to:
 
-Opening tags tell the browser that this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
+Understand what HTML tags are and how they function.
 
-Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
+Differentiate between HTML elements and tags.
 
-A full paragraph element looks like this:
 
-```html
-<p>some text content</p>
-```
+Elements and Tags
 
-Let's break this down:
+In HTML, most content is wrapped inside elements, which are created using tags.
 
-- `<p>` is the opening tag.
-- `some text content` represents content wrapped within the opening and closing tags.
-- `</p>` is the closing tag.
+Opening tags mark the start of an element and are enclosed in angle brackets < >.
 
-You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
+Example: <p> (a paragraph opening tag).
 
-HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) that you can use to create all kinds of different elements. It is important to use the correct tags for content. Using the correct tags can have a big impact on two aspects of your sites: how they are ranked in search engines; and how accessible they are to users who rely on assistive technologies, like screen readers, to use the internet.
 
-Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
+Closing tags mark the end of an element. They are similar to opening tags but include a forward slash /.
 
-### Void Elements
+Example: </p> (a paragraph closing tag).
 
-Some HTML elements do not have a closing tag. These elements just have a single tag, like: `<br>` or `<img>`. They are known as void elements because they are void of any content, there is nothing inside of them. No closing tag means they can't wrap content like other tags do.
 
-You might also see these referred to as self-closing tags. But those are just void elements with a forward slash(/) at the end like: `<br />` or `<img />`. You're likely to see self-closing tags used often for historical reasons. Browsers will be able to render them just fine, but the latest version of the HTML specification discourages their use and considers them invalid.
+Full HTML elements consist of an opening tag, content, and a closing tag.
 
-### Assignment
 
-<div class="lesson-content__panel" markdown="1">
+Example: A paragraph element
 
-1. Watch Kevin Powell's [HTML & CSS for Absolute Beginners: What is HTML?](https://www.youtube.com/watch?v=X4sClFRMJ00).
+<p>This is a paragraph.</p>
 
-</div>
+Breakdown:
 
-### Knowledge check
+<p> → The opening tag.
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+This is a paragraph. → The content inside the element.
 
-- [What is an HTML tag?](#elements-and-tags)
-- [What are the three parts of an HTML element?](#elements-and-tags)
+</p> → The closing tag.
 
-### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+Why Are Tags Important?
 
-- [Don't Fear the Internet's video about HTML](https://player.vimeo.com/video/24549728)
+Tags define the structure of a webpage. The browser reads these tags and uses them to format the content correctly. Using the right tags improves:
+
+1. SEO (Search Engine Optimization) – Search engines rely on proper HTML structure to rank pages accurately.
+
+
+2. Accessibility – Assistive technologies like screen readers depend on correct HTML to interpret content for users with disabilities.
+
+
+
+Using semantic HTML (choosing the right tag for the right purpose) improves both SEO and accessibility. You’ll learn more about this in a later lesson.
+
+Void Elements (Self-Closing Tags)
+
+Some HTML elements don’t have closing tags because they don’t wrap content. These are called void elements (or self-closing tags).
+
+Examples of void elements:
+
+<br>   <!-- Line break -->
+<img src="image.jpg" alt="Description">   <!-- Image -->
+<hr>   <!-- Horizontal line -->
+<input type="text" placeholder="Enter your name">   <!-- Input field -->
+
+Historically, void elements were sometimes written with a self-closing slash (<br />, <img />). However, modern HTML does not require this, and the latest HTML standards consider it unnecessary.
+
+Assignment
+
+Watch Kevin Powell’s HTML & CSS for Absolute Beginners: What is HTML? to reinforce your understanding.
+
+Knowledge Check
+
+Test your understanding with these questions:
+
+What is an HTML tag?
+
+What are the three parts of an HTML element?
+
+
+Additional Resources
+
+If you want to explore further, check out:
+
+Don’t Fear the Internet – Introduction to HTML (Video)
+
+
+
+---
+
+What’s Improved?
+
+✔ Clearer explanations of tags and elements.
+✔ Simpler, more structured breakdowns.
+✔ Added emphasis on why correct HTML matters (SEO + accessibility).
+✔ More engaging formatting and examples.
+
+Would you like to make any more refinements?
+
